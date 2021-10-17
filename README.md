@@ -13,7 +13,7 @@ This is my react portfolio.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![screenshot](./public/screebshot.JPG)
+![screenshot](https://raw.githubusercontent.com/smolyakova30/my-app/main/public/screenshot.JPG)
 
 
 ### User Story
