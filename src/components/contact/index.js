@@ -23,29 +23,39 @@ function ContactForm() {
 
     // }
     function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-    
-                if(!isValid) {
-                    setErrorMessage({...errorMessage, email: true, message: "Enter a valid email"})
-                    // setErrorMessage('Please, enter valid email address');
-                } else {
-                    setErrorMessage({...errorMessage, email: false});
-                }
 
+             if (e.target.name === 'name') {
+                if(!e.target.value.length) {
+                    setErrorMessage({...errorMessage, name: true})
+                } else {
+                    setErrorMessage({...errorMessage, name: false})
+                }
             } else {
                 if (!e.target.value.length) {
-                  setErrorMessage({...errorMessage, email: true, message: "Enter an email"});
+                  setErrorMessage({...errorMessage, name: true, message: "Enter your name"});
                 } else {
-                  setErrorMessage({...errorMessage, email: false});
+                  setErrorMessage({...errorMessage, name: false});
                 } 
-        } if (e.target.name === 'comment') {
-            if(!e.target.value.length) {
-                setErrorMessage({...errorMessage, comment: true})
-            } else {
-                setErrorMessage({...errorMessage, comment: false})
-            }
+
+                if (e.target.name === 'email') {
+                    const isValid = validateEmail(e.target.value);
+            
+                        if(!isValid) {
+                            setErrorMessage({...errorMessage, email: true, message: "Enter a valid email"})
+                            // setErrorMessage('Please, enter valid email address');
+                        } else {
+                            setErrorMessage({...errorMessage, email: false});
+                        }
+        
+                    } else {
+                        if (!e.target.value.length) {
+                          setErrorMessage({...errorMessage, email: true, message: "Enter an email"});
+                        } else {
+                          setErrorMessage({...errorMessage, email: false});
+                        } 
+                    }
         }
+        
 
         if (!errorMessage) {
         setFormState({...formState, [e.target.name]: e.target.value })
