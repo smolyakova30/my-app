@@ -15,20 +15,11 @@ function Resume() {
             </li>
           </ul>
 
-          <p class="mt-5">
-            <a href="https://www.linkedin.com/in/olga-s-9724921b4/">
-              <img
-                src="https://img.icons8.com/fluent/48/000000/linkedin.png"
-                alt="inkedIn"
-              />
-            </a>
-          </p>
-
           <a
             href="https://github.com/smolyakova30/my-app/blob/main/src/components/resume/Olga_Smolyakova%20-%20with%20linkedIn.DOCX?raw=true"
             class="link"
           >
-            Click here to download
+            Click HERE to download
           </a>
         </div>
       </div>

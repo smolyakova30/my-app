@@ -5,10 +5,10 @@ function About() {
 
     return(
         <section className="container">
-            <h2 class="top-title">Olga Smolyakov</h2>
+            <h2 className="top-title">Olga Smolyakov</h2>
             <hr></hr>
-            <div>
-                <img class="mb-5" id="avatar" src='https://avatars.githubusercontent.com/u/58537097?s=400&u=1290b2e7cbfa61c9a6cae296d8de9dd166466eb1&v=4' alt="Olga Smolyakov" />
+            <div style={{ alignItems: "center"}}>
+                <img className="mb-5" id="avatar" src='https://avatars.githubusercontent.com/u/58537097?s=400&u=1290b2e7cbfa61c9a6cae296d8de9dd166466eb1&v=4' alt="Olga Smolyakov" />
                 <p>
                   I am a Web Developer located in Wisconsin, US. I have a passion in web development. 
                     Currently, I am enrolled into University of Wisconsin extended bootcamp to become a full-stack developer!
