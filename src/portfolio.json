@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "Weather dashboard",
-        "image":  "",
+        "image":  "https://raw.githubusercontent.com/smolyakova30/my-app/main/src/components/Projects/weather.JPG",
         "github": "https://github.com/smolyakova30/weather-dashboard",
         "deploy": "https://smolyakova30.github.io/weather-dashboard/",
         "topics": "This is the weather application that displays current weather information as well as a five-day forecast for the user-selected city."
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Work Day Scheduler",
-        "image":  "",
+        "image":  "https://raw.githubusercontent.com/smolyakova30/my-app/main/src/components/Projects/scheduler.JPG",
         "github": "https://github.com/smolyakova30/workDayScheduler",
         "deploy": "https://smolyakova30.github.io/workDayScheduler/",
         "topics": "This is a simple calendar application that allows a user to save events for each hour of the day."
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "name": "Note taker",
-        "image":  "",
+        "image":  "https://raw.githubusercontent.com/smolyakova30/my-app/main/src/components/Projects/note.JPG",
         "github": "https://github.com/smolyakova30/note-taker",
         "deploy": "https://infinite-wave-70308.herokuapp.com/",
         "topics": "This is application called 'Note Taker' that can be used to write and save notes."
