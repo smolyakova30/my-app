@@ -61,7 +61,7 @@
     {
         "id": 7,
         "name": "Regular Warehouse (group project)",
-        "image":  "https://raw.githubusercontent.com/smolyakova30/my-app/main/src/components/Projects/Utopia.png",
+        "image":  "https://raw.githubusercontent.com/smolyakova30/my-app/main/src/components/Projects/regular.png",
         "github": "https://github.com/rrcampbell-exe/regular-warehouse",
         "deploy": "https://regular-warehouse.herokuapp.com/",
         "topics": "An application for a regular old, totally ordinary, nothing-to-see-here warehouse."
